@@ -4,12 +4,6 @@ This repository contains scripts and data for analysing historical UK climate st
 
 ## Files
 
-- **compile_climate_data.py**: Downloads, cleans, and combines station data into combined_uk_station_climate_data.csv.
-
-- **station_coordinates.csv**: Extracted latitude/longitude for each station.
-
-- **combined_uk_station_climate_data.csv**: Cleaned climate data ready for analysis.
-
 - **main.py**: Streamlit app providing interactive dashboard.
 
 - **.gitignore**: Files and patterns to ignore.
@@ -28,13 +22,7 @@ pip install pandas requests plotly streamlit
 
 ## Usage
 
-### Compile data:
-
-```
-python compile_climate_data.py
-```
-
-### Run the dashboard:
+### Compile Data & Run the dashboard:
 
 ```
 python -m streamlit run main.py
@@ -46,10 +34,7 @@ Open the URL shown in the terminal (e.g. http://localhost:8501) in your browser.
 
 ```
 Temperatures_uk/
-├── compile_climate_data.py
 ├── main.py
-├── station_coordinates.csv
-├── combined_uk_station_climate_data.csv
 ├── .gitignore
 └── README.md
 ```
