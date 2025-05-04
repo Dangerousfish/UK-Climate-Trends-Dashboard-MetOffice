@@ -4,12 +4,6 @@ This repository contains scripts and data for analysing historical UK climate st
 
 ## Files
 
-- **compile_climate_data.py**: Downloads, cleans, and combines station data into combined_uk_station_climate_data.csv.
-
-- **station_coordinates.csv**: Extracted latitude/longitude for each station.
-
-- **combined_uk_station_climate_data.csv**: Cleaned climate data ready for analysis.
-
 - **main.py**: Streamlit app providing interactive dashboard.
 
 - **.gitignore**: Files and patterns to ignore.
@@ -45,11 +39,8 @@ Open the URL shown in the terminal (e.g. http://localhost:8501) in your browser.
 ## Project Structure
 
 ```
-Temperatures_uk/
-├── compile_climate_data.py
+UK-Climate-Trends-Dashboard-MetOffice/
 ├── main.py
-├── station_coordinates.csv
-├── combined_uk_station_climate_data.csv
 ├── .gitignore
 └── README.md
 ```
