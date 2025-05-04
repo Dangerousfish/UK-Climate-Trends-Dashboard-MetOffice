@@ -33,7 +33,7 @@ Open the URL shown in the terminal (e.g. http://localhost:8501) in your browser.
 ## Project Structure
 
 ```
-Temperatures_uk/
+UK-Climate-Trends-Dashboard-MetOffice/
 ├── main.py
 ├── .gitignore
 └── README.md
